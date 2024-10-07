@@ -10,7 +10,9 @@ const decodeTheRing = function (s, p) {
         dp[i][0] = dp[i-1][0];
       }
     }
-    
+    for(let i=1;i<=n; i++){
+      
+    }
 
   };
   
