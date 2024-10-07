@@ -20,6 +20,7 @@ const decodeTheRing = function (s, p) {
         }
       }
     }
+    return
 
   };
   
