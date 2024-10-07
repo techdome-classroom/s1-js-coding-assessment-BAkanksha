@@ -2,7 +2,7 @@ const decodeTheRing = function (s, p) {
 
     // write your code here
     conts m= s.length;
-    
+    const n= p.length;
 
   };
   
