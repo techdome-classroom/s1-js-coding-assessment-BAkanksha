@@ -25,6 +25,7 @@ const getTotalIsles = function (grid) {
         }
       }  
     }
+    return islandCount;
   }
 
 };
