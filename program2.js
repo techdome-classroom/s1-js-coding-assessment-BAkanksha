@@ -8,7 +8,7 @@ const decodeTheRing = function (s, p) {
 
 const regex = new RegExp(`^${regexPattern}$`);
 
-// Test if the string matches the generated regex
+
 return regex.test(s);
 
   };
