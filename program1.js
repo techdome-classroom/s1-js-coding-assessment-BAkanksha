@@ -6,7 +6,9 @@ const getTotalIsles = function (grid) {
     const row =grid.length;
     const col = grid[0].length;
     let islandCount=0;
-    function dfs()
+    function dfs(r, c){
+      if
+    }
   }
 
 };
