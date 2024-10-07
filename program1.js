@@ -21,7 +21,7 @@ const getTotalIsles = function (grid) {
         if(grid[i][j]==='L'){
           
           islandCount++;
-          
+          dfs(r,c)
         }
   
     }
