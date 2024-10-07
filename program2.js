@@ -2,8 +2,8 @@ const decodeTheRing = function (s, p) {
 
     // write your code here
     let regexPattern = p
-    .replace(/\*/g, '.*')  // Replace * with .*
-    .replace(/\?/g, '.');  // Replace ? with .
+    .replace(/\*/g, '.*')  
+    .replace(/\?/g, '.');  
 
 // Add start (^) and end ($) anchors to ensure full string match
 const regex = new RegExp(`^${regexPattern}$`);
